@@ -1,0 +1,34 @@
+#wraper {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 95vh;
+}
+header {
+  width:100%;
+  background-color:blue;
+}
+
+main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+.top-news {
+  width: 20%;
+  background-color: yellow;
+}
+.scores {
+  width: 60%;
+  background-color: grey;
+}
+.weather {
+  width: 20%;
+  background: orange;
+}
+footer {
+  width: 100%;
+  background-color: green;
+}
